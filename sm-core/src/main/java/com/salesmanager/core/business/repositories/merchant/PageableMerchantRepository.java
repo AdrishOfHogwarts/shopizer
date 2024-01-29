@@ -7,7 +7,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.salesmanager.core.model.merchant.MerchantStore;
 
-public interface PageableMerchantRepository extends PagingAndSortingRepository<MerchantStore, Long> {
+public interface PageableMerchantRepository extends PagingAndSortingRepository<MerchantStore, Integer> {
 
 	/*
 	 * List by parent store
